@@ -1,0 +1,18 @@
+/var/log/remotehosts/***/*.log
+/var/log/remotehosts/***/*.log
+/var/log/remotehosts/***/*.log
+/var/log/remotehosts/***/*.log
+/var/log/remotehosts/***/*.log
+/var/log/remotehosts/***/*.log
+/var/log/remotehosts/***/*.log{
+		
+		create 0660 root 
+		size 4000k
+		compress
+    		dateext
+    		maxage 365
+    		rotate 60
+    		notifempty
+   		missingok
+    		copytruncate
+}
